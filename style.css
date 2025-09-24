@@ -1,0 +1,84 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2em;
+  color: #cbd5e1;
+}
+
+/* Section layout */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  font-size: 1.8em;
+  color: #0f172a;
+  border-bottom: 2px solid #94a3b8;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border-left: 5px solid #0ea5e9;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.card h3 {
+  margin-top: 0;
+  color: #1e3a8a;
+}
+.card p {
+  margin: 10px 0;
+}
+
+/* Links */
+a {
+  color: #0ea5e9;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #0f172a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
